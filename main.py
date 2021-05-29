@@ -22,14 +22,14 @@ def main():
 def logo():
   print """%s
   __ __ ___  ___   __  __  ____   __                              
- | |/ / | | |   \  |    | |    | |  \  |%sAuthor by %sridwanszz15%s
- | |    | | | )  | | __ | |____| |   \ |%sGithub %sgithub.com/ridwanszz15%s
- |_|    |_| |___/  |/  \| |    | |    \|%sTeam %sSecretCreator%s
+ | |/ / | | |   \  |    | |    | |  \  |%sAuthor by %sHilmySakti%s
+ | |    | | | )  | | __ | |____| |   \ |%sGithub %sgithub.com/HilmySakti%s
+ |_|    |_| |___/  |/  \| |    | |    \|%sTeam %sSaktiTeam%s
  =======================================%sTools spam otp dengan 29 spammers"""%(qu,pu,ku,qu,pu,ku,qu,pu,ku,qu,qu)
 #-------------------------------Input Function------------------------------------------
 def input():
   global nom
-  nom = raw_input("%s[%s?%s] %sMasukkan nomor target (8888xx) : "%(pu,me,pu,pu))
+  nom = raw_input("%s[%s?%s] %sMasukkan nomor target (812xx) : "%(pu,me,pu,pu))
   if len(nom) < 5:
     print "%s[%s!%s] %sMasukkan nomor target dengan benar!!"%(pu,me,pu,me)
     input()
